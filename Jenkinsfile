@@ -28,11 +28,6 @@ pipeline{
                         echo 'action4'
                     }
                 }
-         stage('sub-job3'){
-           steps{
-             echo 'action3'
-           }
-        }
 			}
 		}
 		stage('codebuild'){
