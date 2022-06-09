@@ -22,7 +22,12 @@ pipeline{
            steps{
              echo 'action3'
            }
-        }
+         }
+          stage('sub-job4'){
+            steps{
+              echo 'action4'
+            }
+         }
 			}
 		}
 		stage('codebuild'){
