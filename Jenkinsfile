@@ -17,7 +17,8 @@ pipeline{
 					steps{
 						echo 'action2'
 					}
-				}stage('sub-job3'){
+				}
+                stage('sub-job3'){
                     steps{
                         echo 'action3'
                     }
