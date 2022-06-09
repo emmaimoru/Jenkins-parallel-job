@@ -18,16 +18,16 @@ pipeline{
 						echo 'action2'
 					}
 				}
-                stage('sub-job3'){
-                    steps{
-                        echo 'action3'
-                    }
-                }
-                stage('sub-job4'){
-                    steps{
-                        echo 'action4'
-                    }
-                }
+         stage('sub-job3'){
+           steps{
+             echo 'action3'
+           }
+         }
+          stage('sub-job4'){
+            steps{
+              echo 'action4'
+            }
+         }
 			}
 		}
 		stage('codebuild'){
