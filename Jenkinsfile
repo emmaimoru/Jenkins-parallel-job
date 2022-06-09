@@ -18,7 +18,6 @@ pipeline{
 						echo 'action2'
 					}
 				}
-<<<<<<< HEAD
                 stage('sub-job3'){
                     steps{
                         echo 'action3'
@@ -29,13 +28,11 @@ pipeline{
                         echo 'action4'
                     }
                 }
-=======
          stage('sub-job3'){
            steps{
              echo 'action3'
            }
         }
->>>>>>> 63de610ccaf5cff2c99d7a433341e410203a6dd6
 			}
 		}
 		stage('codebuild'){
